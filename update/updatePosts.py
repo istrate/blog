@@ -16,8 +16,8 @@ print(os.listdir(path))
 source = '/opt/app-root/src/update'
 destination = '/opt/app-root/src'
  
-sourcePath = path+'/'+source
-destinationPath = path+'/'+destination
+sourcePath = source
+destinationPath = destination
  
 # Check if file already exists
 if os.path.isdir(destinationPath+'/'+source):
