@@ -5,7 +5,7 @@ import os
 import shutil
  
 # path
-path = '/opt/app-root/src/update/posts.json'
+path = '/opt/app-root/src/update'
  
 # List files and directories
 print("Before moving file:")
