@@ -1,0 +1,13 @@
+[
+	{
+		"model": "blog.post",
+		"pk": 1,
+		"fields": {
+			"author": 1,
+			"title": "Set from build-hook",
+			"text": " Command worked succesfully",
+			"created_date": "2021-10-10T03:26:20.023Z",
+			"published_date": "2021-10-10T03:26:20.026Z"
+		}
+	}
+]
