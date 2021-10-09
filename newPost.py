@@ -9,3 +9,5 @@ data.append(entry)
 # 3. Write json file
 with open(filename, "w") as file:
     json.dump(data, file)
+print("Post done successfully")
+print("**************************Hook worked successfuly***********************")
