@@ -1,13 +1,8 @@
-import json
-filename = 'posts.json'
-entry = {"model": "blog.post","pk": 3,"fields": {"author": 1,"title": "Set from build-hook","text": " Command worked succesfully","created_date": "2021-10-10T03:26:20.023Z","published_date": "2021-10-10T03:26:20.026Z"}}
-# 1. Read file contents
-with open(filename, "r") as file:
-    data = json.load(file)
-# 2. Update json object
-data.append(entry)
-# 3. Write json file
-with open(filename, "w") as file:
-    json.dump(data, file)
+import sys
+
+print('"**********************mailer script started here"**********************')
+
+with open('posts.json', 'w') as f:
+    print('[{"model": "blog.post","pk": 1,"fields": {"author": 1,"title": "Does this work?","text": "It looks like it does","created_date": "2022-03-14T03:26:20.023Z","published_date": "2022-03-14T03:26:20.026Z"}}]', file=f)
 print("Post done successfully")
 print("**************************Hook worked successfuly***********************")
